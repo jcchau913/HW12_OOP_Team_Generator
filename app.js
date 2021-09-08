@@ -20,7 +20,7 @@ function buildTeam(){
     if (!fs.existsSync(OUTPUT_DIR)){
         fs.mkdirSync(OUTPUT_DIR)
     }
-  //  fs.writeFileSync(OUTPUT_DIR, render(teamMembers), "utf-8");
+  //  fs.writeFileSync(OUTPUT_DIR, render(teamMembers), "utf-8");  // need to debug this.
 
 }
 
@@ -125,4 +125,3 @@ function createTeam() {
 
 addMember("manager");
 
-//addMember(("manager") => console.log('huzzah done!'));
